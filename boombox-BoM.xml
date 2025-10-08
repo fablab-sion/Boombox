@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2025-09-14T15:08:05Z</dc:date>
+      <dc:date>2025-10-07T10:51:46Z</dc:date>
       <meta:print-date>2009-04-22T19:24:48Z</meta:print-date>
       <meta:creation-date>2006-09-16T00:00:00Z</meta:creation-date>
       <meta:editing-cycles>18</meta:editing-cycles>
@@ -43,7 +43,7 @@
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">cables</gnm:SheetName>
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">total</gnm:SheetName>
   </gnm:SheetNameIndex>
-  <gnm:Geometry Width="1489" Height="949"/>
+  <gnm:Geometry Width="1328" Height="656"/>
   <gnm:Sheets>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>Mouser</gnm:Name>
@@ -196,8 +196,8 @@
         <gnm:RowInfo No="27" Unit="16.5"/>
         <gnm:RowInfo No="28" Unit="15" Count="3"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="0" CursorRow="6">
-        <gnm:Selection startCol="0" startRow="6" endCol="0" endRow="6"/>
+      <gnm:Selections CursorCol="3" CursorRow="7">
+        <gnm:Selection startCol="3" startRow="7" endCol="3" endRow="7"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
@@ -225,6 +225,10 @@
         <gnm:Cell Row="4" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="4" Col="5" ValueType="40">2</gnm:Cell>
         <gnm:Cell Row="4" Col="6" ExprID="1"/>
+        <gnm:Cell Row="5" Col="3" ValueType="60">barrrel connector 5.4 mm f</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="60">power supply 24 V</gnm:Cell>
+        <gnm:Cell Row="6" Col="4" ValueType="40">1</gnm:Cell>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
@@ -232,7 +236,7 @@
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>Distrelec</gnm:Name>
       <gnm:MaxCol>6</gnm:MaxCol>
-      <gnm:MaxRow>2</gnm:MaxRow>
+      <gnm:MaxRow>10</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -321,8 +325,8 @@
         <gnm:ColInfo No="3" Unit="174" HardSize="1"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="15"/>
-      <gnm:Selections CursorCol="4" CursorRow="3">
-        <gnm:Selection startCol="4" startRow="3" endCol="4" endRow="3"/>
+      <gnm:Selections CursorCol="4" CursorRow="11">
+        <gnm:Selection startCol="4" startRow="11" endCol="4" endRow="11"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
@@ -338,6 +342,16 @@
         <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="2" Col="5" ValueType="40">40</gnm:Cell>
         <gnm:Cell Row="2" Col="6" ExprID="1"/>
+        <gnm:Cell Row="6" Col="3" ValueType="60">screws M4 x 12</gnm:Cell>
+        <gnm:Cell Row="6" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="60">inserts M4</gnm:Cell>
+        <gnm:Cell Row="7" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ValueType="60">screws M2.5 x 6</gnm:Cell>
+        <gnm:Cell Row="8" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="9" Col="3" ValueType="60">spacers M2.5 x 5</gnm:Cell>
+        <gnm:Cell Row="9" Col="4" ValueType="40">4</gnm:Cell>
+        <gnm:Cell Row="10" Col="3" ValueType="60">nuts M2.5</gnm:Cell>
+        <gnm:Cell Row="10" Col="4" ValueType="40">4</gnm:Cell>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
@@ -416,7 +430,7 @@
       <gnm:Cols DefaultSizePts="59.4">
         <gnm:ColInfo No="0" Unit="165.4"/>
         <gnm:ColInfo No="1" Unit="129.6"/>
-        <gnm:ColInfo No="2" Unit="158.2" HardSize="1"/>
+        <gnm:ColInfo No="2" Unit="338.2"/>
         <gnm:ColInfo No="3" Unit="150.5"/>
         <gnm:ColInfo No="4" Unit="66.44"/>
       </gnm:Cols>
@@ -440,19 +454,19 @@
         <gnm:Cell Row="2" Col="3" ValueType="60">battery board</gnm:Cell>
         <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="2" Col="5" ValueType="40">8</gnm:Cell>
-        <gnm:Cell Row="2" Col="6" ExprID="2">=E3*F3</gnm:Cell>
+        <gnm:Cell Row="2" Col="6" ExprID="1"/>
         <gnm:Cell Row="3" Col="0" ValueType="60">PS-BC12312</gnm:Cell>
         <gnm:Cell Row="3" Col="2" ValueType="60">Functional Cables Kit for BCPB2</gnm:Cell>
         <gnm:Cell Row="3" Col="3" ValueType="60">battery board cables</gnm:Cell>
         <gnm:Cell Row="3" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="3" Col="5" ValueType="40">3</gnm:Cell>
-        <gnm:Cell Row="3" Col="6" ExprID="2"/>
+        <gnm:Cell Row="3" Col="6" ExprID="1"/>
         <gnm:Cell Row="4" Col="0" ValueType="60">PS-SP12159</gnm:Cell>
         <gnm:Cell Row="4" Col="2" ValueType="60">100W SEPIC Converter for Audio Amplifier in Car</gnm:Cell>
         <gnm:Cell Row="4" Col="3" ValueType="60">DC/DC converter board</gnm:Cell>
         <gnm:Cell Row="4" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="4" Col="5" ValueType="40">22</gnm:Cell>
-        <gnm:Cell Row="4" Col="6" ExprID="2"/>
+        <gnm:Cell Row="4" Col="6" ExprID="1"/>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
@@ -460,7 +474,7 @@
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>AliExpress</gnm:Name>
       <gnm:MaxCol>6</gnm:MaxCol>
-      <gnm:MaxRow>6</gnm:MaxRow>
+      <gnm:MaxRow>2</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -580,7 +594,7 @@
         <gnm:Cell Row="2" Col="3" ValueType="60">BT audio receiver board</gnm:Cell>
         <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="2" Col="5" ValueType="40">1</gnm:Cell>
-        <gnm:Cell Row="2" Col="6" ExprID="3">=E3*F3</gnm:Cell>
+        <gnm:Cell Row="2" Col="6" ExprID="1"/>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
@@ -670,7 +684,7 @@
         <gnm:ColInfo No="0" Unit="143.2"/>
         <gnm:ColInfo No="1" Unit="129.8"/>
         <gnm:ColInfo No="2" Unit="107.2"/>
-        <gnm:ColInfo No="3" Unit="126.8"/>
+        <gnm:ColInfo No="3" Unit="153"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="15">
         <gnm:RowInfo No="0" Unit="16.5"/>
@@ -692,15 +706,15 @@
         <gnm:Cell Row="2" Col="3" ValueType="60">full range loudspeaker driver</gnm:Cell>
         <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="2" Col="5" ValueType="40">37</gnm:Cell>
-        <gnm:Cell Row="2" Col="6" ExprID="3"/>
+        <gnm:Cell Row="2" Col="6" ExprID="1"/>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
     </gnm:Sheet>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>cables</gnm:Name>
-      <gnm:MaxCol>3</gnm:MaxCol>
-      <gnm:MaxRow>9</gnm:MaxRow>
+      <gnm:MaxCol>4</gnm:MaxCol>
+      <gnm:MaxRow>7</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -754,12 +768,24 @@
         <gnm:ColInfo No="2" Unit="80.25" HardSize="1"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="12.75">
-        <gnm:RowInfo No="1" Unit="13.5" Count="7"/>
+        <gnm:RowInfo No="1" Unit="15"/>
+        <gnm:RowInfo No="2" Unit="13.5"/>
+        <gnm:RowInfo No="3" Unit="15" Count="3"/>
+        <gnm:RowInfo No="6" Unit="13.5" Count="2"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="0" CursorRow="0">
-        <gnm:Selection startCol="0" startRow="0" endCol="0" endRow="0"/>
+      <gnm:Selections CursorCol="2" CursorRow="6">
+        <gnm:Selection startCol="2" startRow="6" endCol="2" endRow="6"/>
       </gnm:Selections>
-      <gnm:Cells/>
+      <gnm:Cells>
+        <gnm:Cell Row="1" Col="1" ValueType="60">loudspeakers</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="60">2 x 20 cm</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">BT module + Justboom amp</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="60">supply</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="60">2 x 6 cm</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="60">audio</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="60">3 x 6 cm</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="60">2 cm</gnm:Cell>
+      </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
     </gnm:Sheet>
@@ -827,17 +853,17 @@
         <gnm:Cell Row="3" Col="0" ValueType="60">Distrelec</gnm:Cell>
         <gnm:Cell Row="3" Col="1">=sum(Distrelec!G2:G20)</gnm:Cell>
         <gnm:Cell Row="4" Col="0" ValueType="60">Sure</gnm:Cell>
-        <gnm:Cell Row="4" Col="1" ExprID="4">=sum(Sure!G2:G20)</gnm:Cell>
+        <gnm:Cell Row="4" Col="1">=sum(Sure!G2:G20)</gnm:Cell>
         <gnm:Cell Row="5" Col="0" ValueType="60">AliExpress</gnm:Cell>
-        <gnm:Cell Row="5" Col="1" ExprID="5">=sum(AliExpress!G2:G20)</gnm:Cell>
+        <gnm:Cell Row="5" Col="1">=sum(AliExpress!G2:G20)</gnm:Cell>
         <gnm:Cell Row="6" Col="0" ValueType="60">SoundImport</gnm:Cell>
-        <gnm:Cell Row="6" Col="1" ExprID="6">=sum(SoundImports!G2:G20)</gnm:Cell>
+        <gnm:Cell Row="6" Col="1">=sum(SoundImports!G2:G20)</gnm:Cell>
         <gnm:Cell Row="8" Col="0" ValueType="60">Total</gnm:Cell>
-        <gnm:Cell Row="8" Col="1" ExprID="7">=sum(B2:B8)</gnm:Cell>
+        <gnm:Cell Row="8" Col="1">=sum(B2:B8)</gnm:Cell>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
     </gnm:Sheet>
   </gnm:Sheets>
-  <gnm:UIData SelectedTab="6"/>
+  <gnm:UIData SelectedTab="0"/>
 </gnm:Workbook>
