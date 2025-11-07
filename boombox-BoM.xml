@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
-  <gnm:Version Epoch="1" Major="12" Minor="57" Full="1.12.57"/>
+  <gnm:Version Epoch="1" Major="12" Minor="55" Full="1.12.55"/>
   <gnm:Attributes>
     <gnm:Attribute>
       <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
@@ -25,7 +25,7 @@
   </gnm:Attributes>
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
-      <dc:date>2025-10-07T10:51:46Z</dc:date>
+      <dc:date>2025-10-24T17:27:15Z</dc:date>
       <meta:print-date>2009-04-22T19:24:48Z</meta:print-date>
       <meta:creation-date>2006-09-16T00:00:00Z</meta:creation-date>
       <meta:editing-cycles>18</meta:editing-cycles>
@@ -33,7 +33,7 @@
       <meta:user-defined meta:name="msole:codepage" meta:value-type="float">-535</meta:user-defined>
     </office:meta>
   </office:document-meta>
-  <gnm:Calculation ManualRecalc="0" EnableIteration="0" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="53"/>
+  <gnm:Calculation ManualRecalc="0" EnableIteration="0" MaxIterations="100" IterationTolerance="0.001" FloatRadix="2" FloatDigits="64"/>
   <gnm:SheetNameIndex>
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Mouser</gnm:SheetName>
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">Distrelec</gnm:SheetName>
@@ -43,12 +43,12 @@
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">cables</gnm:SheetName>
     <gnm:SheetName gnm:Cols="256" gnm:Rows="65536">total</gnm:SheetName>
   </gnm:SheetNameIndex>
-  <gnm:Geometry Width="1328" Height="656"/>
+  <gnm:Geometry Width="1432" Height="797"/>
   <gnm:Sheets>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>Mouser</gnm:Name>
       <gnm:MaxCol>6</gnm:MaxCol>
-      <gnm:MaxRow>30</gnm:MaxRow>
+      <gnm:MaxRow>32</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -100,27 +100,37 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="2" endCol="0" endRow="12">
-          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+        <gnm:StyleRegion startCol="0" startRow="2" endCol="0" endRow="2">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="13" endCol="0" endRow="13">
-          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
-            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="14" endCol="0" endRow="31">
-          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
-            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="32" endCol="255" endRow="33">
+        <gnm:StyleRegion startCol="0" startRow="3" endCol="255" endRow="3">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="34" endCol="0" endRow="65535">
+        <gnm:StyleRegion startCol="0" startRow="4" endCol="0" endRow="14">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="15" endCol="0" endRow="15">
+          <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="16" endCol="0" endRow="33">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="34" endCol="255" endRow="35">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="36" endCol="0" endRow="65535">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="@">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
@@ -130,42 +140,47 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="2" endCol="255" endRow="3">
+        <gnm:StyleRegion startCol="1" startRow="2" endCol="255" endRow="2">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="4" endCol="1" endRow="4">
+        <gnm:StyleRegion startCol="1" startRow="4" endCol="255" endRow="5">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="5" endCol="255" endRow="12">
+        <gnm:StyleRegion startCol="1" startRow="6" endCol="1" endRow="6">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="13" endCol="3" endRow="13">
+        <gnm:StyleRegion startCol="1" startRow="7" endCol="255" endRow="14">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1" startRow="15" endCol="3" endRow="15">
           <gnm:Style HAlign="GNM_HALIGN_LEFT" VAlign="GNM_VALIGN_TOP" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="14" endCol="255" endRow="31">
+        <gnm:StyleRegion startCol="1" startRow="16" endCol="255" endRow="33">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="34" endCol="255" endRow="65535">
+        <gnm:StyleRegion startCol="1" startRow="36" endCol="255" endRow="65535">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="2" startRow="4" endCol="2" endRow="4">
+        <gnm:StyleRegion startCol="2" startRow="6" endCol="2" endRow="6">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="1" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="3" startRow="4" endCol="255" endRow="4">
+        <gnm:StyleRegion startCol="3" startRow="6" endCol="255" endRow="6">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
@@ -175,7 +190,7 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="4" startRow="13" endCol="255" endRow="13">
+        <gnm:StyleRegion startCol="4" startRow="15" endCol="255" endRow="15">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
@@ -189,15 +204,15 @@
         <gnm:ColInfo No="4" Unit="66.44"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="15.8">
-        <gnm:RowInfo No="5" Unit="15"/>
-        <gnm:RowInfo No="9" Unit="15"/>
-        <gnm:RowInfo No="13" Unit="15"/>
-        <gnm:RowInfo No="25" Unit="15" Count="2"/>
-        <gnm:RowInfo No="27" Unit="16.5"/>
-        <gnm:RowInfo No="28" Unit="15" Count="3"/>
+        <gnm:RowInfo No="7" Unit="15"/>
+        <gnm:RowInfo No="11" Unit="15"/>
+        <gnm:RowInfo No="15" Unit="15"/>
+        <gnm:RowInfo No="27" Unit="15" Count="2"/>
+        <gnm:RowInfo No="29" Unit="16.5"/>
+        <gnm:RowInfo No="30" Unit="15" Count="3"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="3" CursorRow="7">
-        <gnm:Selection startCol="3" startRow="7" endCol="3" endRow="7"/>
+      <gnm:Selections CursorCol="0" CursorRow="1">
+        <gnm:Selection startCol="0" startRow="1" endCol="0" endRow="1"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
@@ -207,28 +222,34 @@
         <gnm:Cell Row="0" Col="4" ValueType="60">Quantity 1</gnm:Cell>
         <gnm:Cell Row="0" Col="5" ValueType="60">Price</gnm:Cell>
         <gnm:Cell Row="0" Col="6" ValueType="60">Total</gnm:Cell>
-        <gnm:Cell Row="2" Col="0" ValueType="60">1385</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="40">5807</gnm:Cell>
         <gnm:Cell Row="2" Col="2" ValueType="60">Adafruit</gnm:Cell>
-        <gnm:Cell Row="2" Col="3" ValueType="60">switching regulator</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="60">USB-C Power Delivery board</gnm:Cell>
         <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
-        <gnm:Cell Row="2" Col="5" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="2" Col="5" ValueType="40">6</gnm:Cell>
         <gnm:Cell Row="2" Col="6" ExprID="1">=E3*F3</gnm:Cell>
-        <gnm:Cell Row="3" Col="0" ValueType="60">TPA3118D2EVM</gnm:Cell>
-        <gnm:Cell Row="3" Col="2" ValueType="60">TI</gnm:Cell>
-        <gnm:Cell Row="3" Col="3" ValueType="60">amplifier evaluation board</gnm:Cell>
-        <gnm:Cell Row="3" Col="4" ValueType="40">0</gnm:Cell>
-        <gnm:Cell Row="3" Col="5" ValueType="40">190</gnm:Cell>
-        <gnm:Cell Row="3" Col="6" ExprID="1"/>
-        <gnm:Cell Row="4" Col="0" ValueType="60">TPA3118D2DAPR</gnm:Cell>
-        <gnm:Cell Row="4" Col="2" ValueType="60">TI</gnm:Cell>
-        <gnm:Cell Row="4" Col="3" ValueType="60">audio amplifier chip</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60">1385</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="60">Adafruit</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="60">switching regulator</gnm:Cell>
         <gnm:Cell Row="4" Col="4" ValueType="40">1</gnm:Cell>
-        <gnm:Cell Row="4" Col="5" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="4" Col="5" ValueType="40">8</gnm:Cell>
         <gnm:Cell Row="4" Col="6" ExprID="1"/>
-        <gnm:Cell Row="5" Col="3" ValueType="60">barrrel connector 5.4 mm f</gnm:Cell>
-        <gnm:Cell Row="5" Col="4" ValueType="40">1</gnm:Cell>
-        <gnm:Cell Row="6" Col="3" ValueType="60">power supply 24 V</gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="60">TPA3118D2EVM</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="60">TI</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="60">amplifier evaluation board</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="40">0</gnm:Cell>
+        <gnm:Cell Row="5" Col="5" ValueType="40">190</gnm:Cell>
+        <gnm:Cell Row="5" Col="6" ExprID="1"/>
+        <gnm:Cell Row="6" Col="0" ValueType="60">TPA3118D2DAPR</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="60">TI</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="60">audio amplifier chip</gnm:Cell>
         <gnm:Cell Row="6" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="6" Col="5" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="6" Col="6" ExprID="1"/>
+        <gnm:Cell Row="7" Col="3" ValueType="60">barrrel connector 5.4 mm f</gnm:Cell>
+        <gnm:Cell Row="7" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ValueType="60">power supply 24 V</gnm:Cell>
+        <gnm:Cell Row="8" Col="4" ValueType="40">1</gnm:Cell>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0" SensitivityR="0"/>
@@ -293,7 +314,12 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="3" endCol="255" endRow="65535">
+        <gnm:StyleRegion startCol="0" startRow="3" endCol="5" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="4" endCol="255" endRow="65535">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -313,7 +339,12 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="7" startRow="0" endCol="255" endRow="2">
+        <gnm:StyleRegion startCol="6" startRow="3" endCol="6" endRow="3">
+          <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="7" startRow="0" endCol="255" endRow="3">
           <gnm:Style HAlign="GNM_HALIGN_GENERAL" VAlign="GNM_VALIGN_BOTTOM" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -325,8 +356,8 @@
         <gnm:ColInfo No="3" Unit="174" HardSize="1"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="15"/>
-      <gnm:Selections CursorCol="4" CursorRow="11">
-        <gnm:Selection startCol="4" startRow="11" endCol="4" endRow="11"/>
+      <gnm:Selections CursorCol="6" CursorRow="3">
+        <gnm:Selection startCol="6" startRow="3" endCol="6" endRow="3"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
@@ -342,6 +373,12 @@
         <gnm:Cell Row="2" Col="4" ValueType="40">1</gnm:Cell>
         <gnm:Cell Row="2" Col="5" ValueType="40">40</gnm:Cell>
         <gnm:Cell Row="2" Col="6" ExprID="1"/>
+        <gnm:Cell Row="3" Col="0" ValueType="60">1307-0003</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="60">Ansmann</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="60">rechargeable battery 18650</gnm:Cell>
+        <gnm:Cell Row="3" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="3" Col="5" ValueType="40">30</gnm:Cell>
+        <gnm:Cell Row="3" Col="6" ExprID="1"/>
         <gnm:Cell Row="6" Col="3" ValueType="60">screws M4 x 12</gnm:Cell>
         <gnm:Cell Row="6" Col="4" ValueType="40">4</gnm:Cell>
         <gnm:Cell Row="7" Col="3" ValueType="60">inserts M4</gnm:Cell>
@@ -438,8 +475,8 @@
         <gnm:RowInfo No="0" Unit="16.5"/>
         <gnm:RowInfo No="2" Unit="16.5" Count="3"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="0" CursorRow="6">
-        <gnm:Selection startCol="0" startRow="6" endCol="0" endRow="6"/>
+      <gnm:Selections CursorCol="4" CursorRow="5">
+        <gnm:Selection startCol="4" startRow="5" endCol="4" endRow="5"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Manufacturer Part Number</gnm:Cell>
@@ -464,7 +501,7 @@
         <gnm:Cell Row="4" Col="0" ValueType="60">PS-SP12159</gnm:Cell>
         <gnm:Cell Row="4" Col="2" ValueType="60">100W SEPIC Converter for Audio Amplifier in Car</gnm:Cell>
         <gnm:Cell Row="4" Col="3" ValueType="60">DC/DC converter board</gnm:Cell>
-        <gnm:Cell Row="4" Col="4" ValueType="40">1</gnm:Cell>
+        <gnm:Cell Row="4" Col="4" ValueType="40">0</gnm:Cell>
         <gnm:Cell Row="4" Col="5" ValueType="40">22</gnm:Cell>
         <gnm:Cell Row="4" Col="6" ExprID="1"/>
       </gnm:Cells>
@@ -849,7 +886,7 @@
         <gnm:Cell Row="0" Col="0" ValueType="60">Distributor</gnm:Cell>
         <gnm:Cell Row="0" Col="1" ValueType="60">Amount</gnm:Cell>
         <gnm:Cell Row="2" Col="0" ValueType="60">Mouser</gnm:Cell>
-        <gnm:Cell Row="2" Col="1">=sum(Mouser!G2:G20)</gnm:Cell>
+        <gnm:Cell Row="2" Col="1">=sum(Mouser!G2:G22)</gnm:Cell>
         <gnm:Cell Row="3" Col="0" ValueType="60">Distrelec</gnm:Cell>
         <gnm:Cell Row="3" Col="1">=sum(Distrelec!G2:G20)</gnm:Cell>
         <gnm:Cell Row="4" Col="0" ValueType="60">Sure</gnm:Cell>
