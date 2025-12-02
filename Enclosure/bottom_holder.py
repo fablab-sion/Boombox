@@ -3,7 +3,7 @@ import math
 
                                                                      # rendering
 showTube = True
-cutTube = False
+cutTube = True
 showRing = True
 cutRing = False
 showPlatesHolder = True
@@ -35,7 +35,7 @@ ringColour = 'Red'
 electronicPlatesLength = 3.6*mmPerInch
 electronicPlatesWidth = 2.7*mmPerInch
 electronicPlatesThickness = 2
-electronicPlatesOffsets = [-18, 0, 16]
+electronicPlatesOffsets = [-22, 0, 18]
 electronicPlatesColour = 'Green'
 electronicPlatesStandoffsDiameter = 5
 electronicPlatesStandoffsXDistance = 3.3*mmPerInch
@@ -44,7 +44,7 @@ electronicPlatesStandoffsColour = 'Silver'
                                                       # electronic plates holder
 platesHolderWidth = 5
 platesHolderFixingHoleNb = 3
-platesHolderFixingHoleDiameter = 3.5
+platesHolderFixingHoleDiameter = m3InsertsDiameter
 platesHolderFixingHolesDiameter = ringInternalDiameter - 10
 platesHolderFixingHoleOffsets = [-10, 10]
 platesHolderColour = 'Burlywood'
